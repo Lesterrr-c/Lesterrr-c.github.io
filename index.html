@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lester Lagajino | IT Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="index.html">
+            My Portfolio
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Profile</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <button class="theme-btn" id="themeBtn" type="button">
+                       🌙
+                    </button>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!-- =========================
+     HERO SECTION
+========================= -->
+
+<section class="hero-section reveal">
+
+    <div class="container">
+
+        <div class="row align-items-center min-vh-100">
+
+            <!-- LEFT SIDE -->
+
+            <div class="col-lg-7">
+
+                <p class="small text-uppercase fw-bold text-secondary mb-3">
+                    <span id="typeText"></span>
+                </p>
+
+                <h1 class="fw-bold mb-4">
+                    Hello, I'm
+                    <br>
+                    <span>Lester</span>
+                </h1>
+
+                <p class="hero-description mb-4">
+                    I am a Bachelor of Science in Information Technology
+                    student interested in building practical software
+                    solutions and solving real-world technology problems.
+                </p>
+
+                <div class="d-flex gap-3 flex-wrap">
+
+                    <a href="#projects" class="btn btn-primary px-4 py-3">
+                        View My Projects
+                    </a>
+
+                    <a href="resume/resume.pdf" download class="btn btn-outline-dark px-4 py-3">
+                        Download Resume
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+
+                <div class="profile-placeholder">
+                        <img 
+                        id="profileImg"
+                        src="images/profile.png" 
+                        alt="Lester - IT Student" 
+                        class="profile-image">
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SHORT INTRODUCTION
+========================= -->
+
+<section class="py-5 border-top">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8 text-center">
+
+                <p class="small text-uppercase fw-bold text-secondary">
+                    Professional Profile
+                </p>
+
+                <h2 class="fw-bold mb-4">
+                    Building skills through real projects
+                </h2>
+
+                <p class="text-secondary lh-lg">
+                    My BSIT journey has given me experience in
+                    software development, web technologies,
+                    databases, mobile application development,
+                    troubleshooting, and other areas of
+                    Information Technology.
+                </p>
+
+                <a href="about.html" class="btn btn-outline-dark mt-3 px-4">
+                    More About Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FEATURED PROJECTS
+========================= -->
+
+<section id="projects" class="py-5">
+
+    <div class="container">
+
+        <div class="mb-5">
+
+            <p class="small text-uppercase fw-bold text-secondary">
+                Selected Work
+            </p>
+
+            <h2 class="fw-bold">
+                Featured Projects
+            </h2>
+
+            <p class="text-secondary">
+                A selection of projects developed during my
+                BSIT journey.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="col-md-4">
+
+                <div class="card project-card h-100">
+
+                    <div class="project-image">
+                        <img src="images/project-1.jpg" alt="JNIEL's Body Massage and Spa">
+                    </div>
+
+                    <div class="card-body">
+
+                        <p class="small text-secondary mb-2">
+                            WEB DEVELOPMENT
+                        </p>
+
+                        <h4 class="card-title">
+                            JNIEL's Body Massage & Spa
+                        </h4>
+
+                        <p class="card-text">
+                            A web-based appointment and management
+                            system developed using PHP, MySQL,
+                            HTML, CSS, and JavaScript.
+                        </p>
+
+                        <div class="mt-3">
+
+                            <span class="badge bg-dark">
+                                PHP
+                            </span>
+
+                            <span class="badge bg-light text-dark border">
+                                MySQL
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="col-md-4">
+
+                <div class="card project-card h-100">
+
+                    
+
+                    <div class="card-body">
+
+                        <p class="small text-secondary mb-2">
+                            MOBILE / AI
+                        </p>
+
+                        <h4 class="card-title">
+                            Offline ASL-to-Text Translator
+                        </h4>
+
+                        <p class="card-text">
+                            An offline Android application designed
+                            to assist communication by translating
+                            American Sign Language into text.
+                        </p>
+
+                        <div class="mt-3">
+
+                            <span class="badge bg-dark">
+                                Android
+                            </span>
+
+                            <span class="badge bg-light text-dark border">
+                                AI
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="col-md-4">
+
+                <div class="card project-card h-100">
+
+                    
+
+                    <div class="card-body">
+
+                        <p class="small text-secondary mb-2">
+                            GAME DEVELOPMENT
+                        </p>
+
+                        <h4 class="card-title">
+                            Last Colony
+                        </h4>
+
+                        <p class="card-text">
+                            A team-based game development project
+                            involving programming, game design,
+                            UI/UX, 3D assets, and documentation.
+                        </p>
+
+                        <div class="mt-3">
+
+                            <span class="badge bg-dark">
+                                Game Development
+                            </span>
+
+                            <span class="badge bg-light text-dark border">
+                                Team Project
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="text-center mt-5">
+
+            <a href="projects.html" class="btn btn-outline-dark px-4">
+                View All Projects
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     TECHNICAL FOCUS
+========================= -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-5 mb-4 mb-lg-0">
+
+                <p class="small text-uppercase fw-bold text-secondary">
+                    Technical Focus
+                </p>
+
+                <h2 class="fw-bold">
+                    Technologies and areas I'm developing
+                </h2>
+
+                <p class="text-secondary lh-lg">
+                    My technical development focuses on practical
+                    application development, databases, mobile
+                    technologies, version control, and
+                    problem-solving.
+                </p>
+
+            </div>
+
+
+            <div class="col-lg-7">
+
+                <div class="row g-3">
+
+                    <div class="col-6 col-md-4">
+                        <div class="info-card">
+                            <h3>PHP</h3>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="info-card">
+                            <h3>MySQL</h3>
+                            <p>Database</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="info-card">
+                            <h3>HTML/CSS</h3>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="info-card">
+                            <h3>JavaScript</h3>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="info-card">
+                            <h3>Git</h3>
+                            <p>Version Control</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <div class="info-card">
+                            <h3>Android</h3>
+                            <p>Mobile Development</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT CTA
+========================= -->
+
+<section class="py-5">
+
+    <div class="container">
+
+        <div class="text-center">
+
+            <p class="small text-uppercase fw-bold text-secondary">
+                Let's Connect
+            </p>
+
+            <h2 class="fw-bold mb-3">
+                Interested in my work?
+            </h2>
+
+            <p class="text-secondary mb-4">
+                You can learn more about my projects,
+                technical skills, and professional background.
+            </p>
+
+            <a href="contact.html" class="btn btn-dark px-4 py-3">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+
+    <div class="container">
+
+        <p class="mb-1">
+            © 2026 My IT Portfolio
+        </p>
+
+        <p class="mb-0">
+            BSIT Industry-Ready Professional Portfolio
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- Bootstrap JavaScript -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<!-- Custom JavaScript -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
