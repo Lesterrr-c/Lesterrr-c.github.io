@@ -14,188 +14,451 @@
     >
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/load.css">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
+    <div id="header"></div>
 
-        <a class="navbar-brand fw-bold" href="index.html">
-            My Portfolio
-        </a>
 
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMenu"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarMenu">
+<main class="contact-page">
 
-            <ul class="navbar-nav ms-auto">
+    <!-- HERO -->
+    <section class="contact-hero reveal">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
+        <div class="contact-grid-bg" aria-hidden="true"></div>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Profile</a>
-                </li>
+        <div class="contact-hero-inner">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="skills.html">Skills</a>
-                </li>
+            <p class="contact-eyebrow">
+                <span class="contact-pulse"></span>
+                CONTACT / OPEN TO OPPORTUNITIES
+            </p>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
+            <h1>
+                Let's start a<br>
+                <span>conversation.</span>
+            </h1>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                </li>
+            <p class="contact-intro">
+                Have an opportunity, project, question, or idea?
+                I'd be glad to hear from you. Let's connect and
+                explore how we can work together.
+            </p>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+            <a href="#contactForm" class="contact-btn contact-btn-primary">
+                Send Me a Message <span>↘</span>
+            </a>
 
-                <li class="nav-item">
-                    <button class="theme-btn" id="themeBtn" type="button">
-                       🌙
+            <div class="contact-availability">
+                <span></span>
+                OPEN TO LEARNING AND PROFESSIONAL OPPORTUNITIES
+            </div>
+
+        </div>
+
+        <div class="contact-hero-decoration" aria-hidden="true">
+            <span>&lt;</span>
+            <span>/</span>
+            <span>&gt;</span>
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT INFORMATION -->
+    <section class="contact-section reveal">
+
+        <div class="contact-section-head">
+            <div>
+                <p class="contact-section-kicker">01 / CONTACT DETAILS</p>
+                <h2>Find me <span>here.</span></h2>
+            </div>
+
+            <p>
+                Choose the channel that works best for you.
+            </p>
+        </div>
+
+
+        <div class="contact-card-grid">
+
+            <!-- EMAIL -->
+            <article class="contact-card">
+
+                <div class="contact-card-top">
+                    <span class="contact-icon">@</span>
+                    <span class="contact-card-number">01</span>
+                </div>
+
+                <p class="contact-card-label">EMAIL ADDRESS</p>
+                <h3>Email</h3>
+
+                <p class="contact-card-description">
+                    For professional inquiries, project discussions,
+                    and general communication.
+                </p>
+
+                <a class="contact-card-link"
+                   href="mailto:lstrcaparos@gmail.com">
+                    lstrcaparos@gmail.com <span>↗</span>
+                </a>
+
+            </article>
+
+
+            <!-- PHONE -->
+            <article class="contact-card">
+
+                <div class="contact-card-top">
+                    <span class="contact-icon">☎</span>
+                    <span class="contact-card-number">02</span>
+                </div>
+
+                <p class="contact-card-label">DIRECT CONTACT</p>
+                <h3>Phone</h3>
+
+                <p class="contact-card-description">
+                    For relevant inquiries and opportunities
+                    that are better discussed directly.
+                </p>
+
+                <a class="contact-card-link"
+                   href="tel:+639955686935">
+                    +63 995 568 6935 <span>↗</span>
+                </a>
+
+            </article>
+
+
+            <!-- GITHUB -->
+            <article class="contact-card">
+
+                <div class="contact-card-top">
+                    <span class="contact-icon">{ }</span>
+                    <span class="contact-card-number">03</span>
+                </div>
+
+                <p class="contact-card-label">CODE / PROJECTS</p>
+                <h3>GitHub</h3>
+
+                <p class="contact-card-description">
+                    Explore my repositories, development work,
+                    and learning projects.
+                </p>
+
+                <a class="contact-card-link"
+                   href="https://github.com/Lesterrr-c"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View GitHub Profile <span>↗</span>
+                </a>
+
+            </article>
+
+
+            <!-- LINKEDIN -->
+            <article class="contact-card">
+
+                <div class="contact-card-top">
+                    <span class="contact-icon">in</span>
+                    <span class="contact-card-number">04</span>
+                </div>
+
+                <p class="contact-card-label">PROFESSIONAL NETWORK</p>
+                <h3>LinkedIn</h3>
+
+                <p class="contact-card-description">
+                    Connect with me professionally and follow
+                    my IT journey.
+                </p>
+
+                <a class="contact-card-link"
+                   href="https://www.linkedin.com/in/lester-lagajino-a10a17441"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View LinkedIn Profile <span>↗</span>
+                </a>
+
+            </article>
+
+
+            <!-- LOCATION -->
+            <article class="contact-card contact-location-card">
+
+                <div class="contact-card-top">
+                    <span class="contact-icon">⌖</span>
+                    <span class="contact-card-number">05</span>
+                </div>
+
+                <p class="contact-card-label">BASED IN</p>
+                <h3>Philippines</h3>
+
+                <p class="contact-card-description">
+                    Based in Las Piñas City, Metro Manila,
+                    Philippines.
+                </p>
+
+                <span class="contact-location-note">
+                    LOCATION / PH
+                </span>
+
+            </article>
+
+
+            <!-- AVAILABILITY -->
+            <article class="contact-card contact-availability-card">
+
+                <div class="contact-card-top">
+                    <span class="contact-icon">↗</span>
+                    <span class="contact-card-number">06</span>
+                </div>
+
+                <p class="contact-card-label">NEXT CONNECTION</p>
+                <h3>Let's Connect</h3>
+
+                <p class="contact-card-description">
+                    I'm interested in learning, collaborating,
+                    and exploring suitable IT opportunities.
+                </p>
+
+                <a class="contact-card-link"
+                   href="#contactForm">
+                    Start a Conversation <span>↓</span>
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT FORM -->
+    <section class="contact-form-section reveal" id="contactForm">
+
+        <div class="contact-form-layout">
+
+            <!-- FORM INTRO -->
+            <div class="contact-form-info">
+
+                <p class="contact-section-kicker">
+                    02 / SEND A MESSAGE
+                </p>
+
+                <h2>
+                    Got something<br>
+                    <span>on your mind?</span>
+                </h2>
+
+                <p>
+                    Complete the form with your details and message.
+                    I'll be able to review your inquiry once the
+                    form has been configured for message delivery.
+                </p>
+
+                <div class="contact-form-points">
+
+                    <div>
+                        <span>01</span>
+                        <p>Introduce yourself.</p>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <p>Explain your inquiry.</p>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <p>Include a way to reply.</p>
+                    </div>
+
+                </div>
+
+                <div class="contact-form-direct">
+                    <span>DIRECT EMAIL</span>
+                    <a href="mailto:lstrcaparos@gmail.com">
+                        lstrcaparos@gmail.com ↗
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- FORM -->
+            <div class="contact-form-card">
+
+                <div class="contact-form-card-head">
+                    <div>
+                        <span class="contact-form-card-kicker">
+                            MESSAGE INTERFACE
+                        </span>
+                        <h3>Send an inquiry</h3>
+                    </div>
+
+                    <span class="contact-form-symbol">&lt;/&gt;</span>
+                </div>
+
+                <form
+                    action="https://formspree.io/f/YOUR_FORM_ID"
+                    method="POST"
+                >
+
+                    <div class="contact-form-row">
+
+                        <div class="contact-field">
+                            <label for="name">Your Name</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                autocomplete="name"
+                                maxlength="100"
+                                required
+                            >
+                        </div>
+
+                        <div class="contact-field">
+                            <label for="email">Email Address</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                                maxlength="254"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-field">
+                        <label for="subject">Subject</label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="What would you like to discuss?"
+                            maxlength="150"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="contact-field">
+                        <label for="message">Your Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message here..."
+                            maxlength="5000"
+                            required
+                        ></textarea>
+                    </div>
+
+
+                    <button type="submit" class="contact-submit">
+                        Send Message <span>↗</span>
                     </button>
-                </li>
 
-            </ul>
+                    <p class="contact-form-note">
+                        Your message will be sent through the configured
+                        form service. Please do not include passwords
+                        or other sensitive information.
+                    </p>
+
+                </form>
+
+            </div>
 
         </div>
-    </div>
-</nav>
-<main class="contact-page reveal">
 
-    <section class="contact-head ">
-        <p>GET IN TOUCH</p>
-        <h1>Contact Me</h1>
-        <p>
-            If you have an opportunity, project, or question,
-            feel free to get in touch with me.
+    </section>
+
+
+    <!-- CLOSING -->
+    <section class="contact-closing reveal">
+
+        <p class="contact-section-kicker">
+            03 / THANK YOU FOR VISITING
         </p>
-    </section>
 
-    <section class="contact-section">
+        <h2>
+            Every connection<br>
+            <span>starts somewhere.</span>
+        </h2>
 
-        <div class="contact-list">
+        <p>
+            Thank you for taking the time to explore my portfolio.
+            I look forward to connecting with you.
+        </p>
 
-            <div class="contact-item">
-                <h2>Email</h2>
-                <a href="mailto:lstrcaparos@gmail.com">
-                    lstrcaparos@gmail.com
-                </a>
-            </div>
-
-            <div class="contact-item">
-                <h2>Phone</h2>
-                <a href="tel:+639955686935">
-                    +63 995 568 6935
-                </a>
-            </div>
-
-            <div class="contact-item">
-                <h2>Location</h2>
-                <p>Elias Aldana, Las Pinas City, Metro Manila, Philippines</p>
-            </div>
-
-            <div class="contact-item">
-                <h2>GitHub</h2>
-                <a href="https://github.com/Lesterrr-c" target="_blank">
-                    https://github.com/Lesterrr-c
-                </a>
-            </div>
-
-            <div class="contact-item">
-                <h2>LinkedIn</h2>
-                <a href="https://www.linkedin.com/in/lester-lagajino-a10a17441" target="_blank">
-                    https://www.linkedin.com/in/lester-lagajino-a10a17441
-                </a>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="contact-section">
-
-        <div class="contact-form">
-            <h2>Send Me a Message</h2>
-
-            <form action="https://formspree.io/f/YOUR_FORM_ID" method="post">
-
-                <div class="form-item">
-                    <label for="name">Name</label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Your name"
-                    >
-                </div>
-
-                <div class="form-item">
-                    <label for="email">Email</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Your email"
-                    >
-                </div>
-
-                <div class="form-item">
-                    <label for="message">Message</label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="6"
-                        placeholder="Your message"
-                    ></textarea>
-                </div>
-
-                <button type="submit">
-                    Send Message
-                </button>
-
-            </form>
-        </div>
+        <a href="projects.html"
+           class="contact-btn contact-btn-primary">
+            Explore My Projects <span>↗</span>
+        </a>
 
     </section>
 
 </main>
-<footer class="bg-dark text-white text-center py-4 mt-5">
 
-    <div class="container">
+<div id="footer"></div>
 
-        <p class="mb-1">
-            © 2026 My IT Portfolio
-        </p>
-
-        <p class="mb-0">
-            BSIT Industry-Ready Professional Portfolio
-        </p>
-
-    </div>
-
-</footer>
 
 <!-- Bootstrap JavaScript -->
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Custom JavaScript -->
+<!-- Main JavaScript -->
 <script src="js/script.js"></script>
+
+<!-- Shared Components -->
+<script>
+async function loadPart(id, file) {
+    const container = document.getElementById(id);
+
+    if (!container) {
+        console.error("Component container not found:", id);
+        return;
+    }
+
+    try {
+        const response = await fetch(file);
+
+        if (!response.ok) {
+            throw new Error(
+                `Failed to load ${file}: ${response.status}`
+            );
+        }
+
+        container.innerHTML = await response.text();
+
+        document.dispatchEvent(
+            new CustomEvent("componentLoaded", {
+                detail: { id: id }
+            })
+        );
+
+        console.log("Component loaded:", file);
+    } catch (error) {
+        console.error("Component loading failed:", error);
+    }
+}
+
+loadPart("header", "./includes/header.html");
+loadPart("footer", "./includes/footer.html");
+</script>
 
 </body>
 </html>

@@ -14,495 +14,531 @@
     >
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/load.css">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-
-        <a class="navbar-brand fw-bold" href="index.html">
-            My Portfolio
-        </a>
-
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMenu"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarMenu">
-
-            <ul class="navbar-nav ms-auto">
-
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Profile</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="skills.html">Skills</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-
-                <li class="nav-item">
-                    <button class="theme-btn" id="themeBtn" type="button">
-                       🌙
-                    </button>
-                </li>
-
-            </ul>
-
-        </div>
-    </div>
-</nav>
+<div id="header"></div>
 
 <!-- =========================
      HERO SECTION
 ========================= -->
 
-<section class="hero-section reveal">
 
-    <div class="container">
+<main class="home-page">
 
-        <div class="row align-items-center min-vh-100">
+    <!-- HERO -->
+    <section class="home-hero reveal">
+        <div class="home-hero-grid" aria-hidden="true"></div>
 
-            <!-- LEFT SIDE -->
+        <div class="home-hero-inner">
 
-            <div class="col-lg-7">
+            <div class="home-hero-copy">
 
-                <p class="small text-uppercase fw-bold text-secondary mb-3">
-                    <span id="typeText"></span>
+                <p class="home-kicker">
+                    <span class="home-pulse"></span>
+                    BSIT STUDENT / ASPIRING IT PROFESSIONAL
                 </p>
 
-                <h1 class="fw-bold mb-4">
-                    Hello, I'm
-                    <br>
-                    <span>Lester</span>
+                <h1>
+                    Building digital<br>
+                    <span class="home-gradient">solutions that matter.</span>
                 </h1>
 
-                <p class="hero-description mb-4">
-                    I am a Bachelor of Science in Information Technology
-                    student interested in building practical software
-                    solutions and solving real-world technology problems.
+                <p class="home-description">
+                    I'm Lester Lagajino, an Information Technology
+                    student interested in software development,
+                    practical problem-solving, and creating
+                    technology that addresses real-world needs.
                 </p>
 
-                <div class="d-flex gap-3 flex-wrap">
+                <div class="home-actions">
 
-                    <a href="#projects" class="btn btn-primary px-4 py-3">
-                        View My Projects
+                    <a href="projects.html"
+                       class="home-btn home-btn-primary">
+                        Explore My Projects <span>↗</span>
                     </a>
 
-                    <a href="resume/resume.pdf" download class="btn btn-outline-dark px-4 py-3">
-                        Download Resume
+                    <a href="resume/resume.pdf"
+                       class="home-btn home-btn-secondary"
+                       download>
+                        Download Resume <span>↓</span>
                     </a>
 
+                </div>
+
+                <div class="home-focus-line">
+                    <span>WEB DEVELOPMENT</span>
+                    <i></i>
+                    <span>DATABASES</span>
+                    <i></i>
+                    <span>IT TROUBLESHOOTING</span>
                 </div>
 
             </div>
 
 
-            <!-- RIGHT SIDE -->
+            <!-- PROFILE VISUAL -->
+            <div class="home-hero-visual">
 
-            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+                <div class="home-orbit home-orbit-one"></div>
+                <div class="home-orbit home-orbit-two"></div>
 
-                <div class="profile-placeholder">
-                        <img 
-                        id="profileImg"
-                        src="images/profile.png" 
-                        alt="Lester - IT Student" 
-                        class="profile-image">
+                <div class="home-profile-card">
+
+                    <div class="home-profile-top">
+                        <span>PROFILE / 001</span>
+                        <span class="home-profile-status">
+                            <i></i> PORTFOLIO
+                        </span>
+                    </div>
+
+                    <div class="home-profile-frame">
+
+                        <img
+                            id="profileImg"
+                            src="images/profile.png"
+                            alt="Portrait of Lester Lagajino"
+                        >
+
+                        <span class="home-photo-label">
+                            IT / STUDENT
+                        </span>
+
+                    </div>
+
+                    <div class="home-profile-info">
+                        <p>HELLO, I'M</p>
+                        <h2>Lester Lagajino<span>.</span></h2>
+                        <div class="home-typing-line">
+                            <span id="typeText">BSIT Student</span>
+                            <span class="home-cursor"></span>
+                        </div>
+                    </div>
+
+                    <div class="home-profile-bottom">
+                        <span>BUILD</span>
+                        <span>LEARN</span>
+                        <span>IMPROVE</span>
+                    </div>
 
                 </div>
 
+                <div class="home-float home-float-left">
+                    <span class="home-float-icon">&lt;/&gt;</span>
+                    <span>DEVELOPMENT</span>
+                </div>
+
+                <div class="home-float home-float-right">
+                    <span class="home-float-icon">01</span>
+                    <span>PROBLEM SOLVING</span>
+                </div>
 
             </div>
 
         </div>
 
-    </div>
+        <div class="home-scroll-cue">
+            <span></span>
+            SCROLL TO EXPLORE
+        </div>
 
-</section>
+    </section>
 
 
-<!-- =========================
-     SHORT INTRODUCTION
-========================= -->
+    <!-- INTRODUCTION -->
+    <section class="home-section home-about reveal">
 
-<section class="py-5 border-top">
+        <div class="home-section-label">
+            <span>01 / INTRODUCTION</span>
+            <span>ABOUT MY JOURNEY</span>
+        </div>
 
-    <div class="container">
+        <div class="home-about-grid">
 
-        <div class="row justify-content-center">
+            <h2>
+                Learning by building.<br>
+                <span>Growing through experience.</span>
+            </h2>
 
-            <div class="col-lg-8 text-center">
+            <div class="home-about-content">
 
-                <p class="small text-uppercase fw-bold text-secondary">
-                    Professional Profile
+                <p>
+                    My BSIT journey involves exploring web technologies,
+                    databases, mobile application development, and
+                    technical troubleshooting through practical projects.
                 </p>
 
-                <h2 class="fw-bold mb-4">
-                    Building skills through real projects
-                </h2>
-
-                <p class="text-secondary lh-lg">
-                    My BSIT journey has given me experience in
-                    software development, web technologies,
-                    databases, mobile application development,
-                    troubleshooting, and other areas of
-                    Information Technology.
+                <p>
+                    I value systematic problem-solving, continuous learning,
+                    and documenting what I build and the challenges
+                    I encounter along the way.
                 </p>
 
-                <a href="about.html" class="btn btn-outline-dark mt-3 px-4">
-                    More About Me
+                <a href="about.html" class="home-text-link">
+                    More About Me <span>↗</span>
                 </a>
 
             </div>
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
-<!-- =========================
-     FEATURED PROJECTS
-========================= -->
+    <!-- FEATURED PROJECTS -->
+    <section class="home-section home-projects reveal" id="homeProjects">
 
-<section id="projects" class="py-5">
-
-    <div class="container">
-
-        <div class="mb-5">
-
-            <p class="small text-uppercase fw-bold text-secondary">
-                Selected Work
-            </p>
-
-            <h2 class="fw-bold">
-                Featured Projects
-            </h2>
-
-            <p class="text-secondary">
-                A selection of projects developed during my
-                BSIT journey.
-            </p>
-
+        <div class="home-section-label">
+            <span>02 / SELECTED WORK</span>
+            <span>PROJECT SHOWCASE</span>
         </div>
 
+        <div class="home-section-heading">
 
-        <div class="row g-4">
-
-
-            <!-- PROJECT 1 -->
-
-            <div class="col-md-4">
-
-                <div class="card project-card h-100">
-
-                    <div class="project-image">
-                        <img src="images/project-1.jpg" alt="JNIEL's Body Massage and Spa">
-                    </div>
-
-                    <div class="card-body">
-
-                        <p class="small text-secondary mb-2">
-                            WEB DEVELOPMENT
-                        </p>
-
-                        <h4 class="card-title">
-                            JNIEL's Body Massage & Spa
-                        </h4>
-
-                        <p class="card-text">
-                            A web-based appointment and management
-                            system developed using PHP, MySQL,
-                            HTML, CSS, and JavaScript.
-                        </p>
-
-                        <div class="mt-3">
-
-                            <span class="badge bg-dark">
-                                PHP
-                            </span>
-
-                            <span class="badge bg-light text-dark border">
-                                MySQL
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div>
+                <p class="home-eyebrow">IDEAS INTO APPLICATIONS</p>
+                <h2>Projects I've <span>worked on.</span></h2>
             </div>
 
-
-            <!-- PROJECT 2 -->
-
-            <div class="col-md-4">
-
-                <div class="card project-card h-100">
-
-                    
-
-                    <div class="card-body">
-
-                        <p class="small text-secondary mb-2">
-                            MOBILE / AI
-                        </p>
-
-                        <h4 class="card-title">
-                            Offline ASL-to-Text Translator
-                        </h4>
-
-                        <p class="card-text">
-                            An offline Android application designed
-                            to assist communication by translating
-                            American Sign Language into text.
-                        </p>
-
-                        <div class="mt-3">
-
-                            <span class="badge bg-dark">
-                                Android
-                            </span>
-
-                            <span class="badge bg-light text-dark border">
-                                AI
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PROJECT 3 -->
-
-            <div class="col-md-4">
-
-                <div class="card project-card h-100">
-
-                    
-
-                    <div class="card-body">
-
-                        <p class="small text-secondary mb-2">
-                            GAME DEVELOPMENT
-                        </p>
-
-                        <h4 class="card-title">
-                            Last Colony
-                        </h4>
-
-                        <p class="card-text">
-                            A team-based game development project
-                            involving programming, game design,
-                            UI/UX, 3D assets, and documentation.
-                        </p>
-
-                        <div class="mt-3">
-
-                            <span class="badge bg-dark">
-                                Game Development
-                            </span>
-
-                            <span class="badge bg-light text-dark border">
-                                Team Project
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="text-center mt-5">
-
-            <a href="projects.html" class="btn btn-outline-dark px-4">
-                View All Projects
+            <a href="projects.html" class="home-text-link">
+                View All Projects <span>↗</span>
             </a>
 
         </div>
 
-    </div>
 
-</section>
+        <div class="home-project-grid">
 
+            <!-- PROJECT 01 -->
+            <article class="home-project-card">
 
-<!-- =========================
-     TECHNICAL FOCUS
-========================= -->
+                <div class="home-project-media home-media-spa">
 
-<section class="py-5 bg-light">
+                    <img
+                        src="images/project-1.jpg"
+                        alt="JNIEL's Body Massage and Spa appointment management system"
+                        loading="lazy"
+                    >
 
-    <div class="container">
+                    <span class="home-project-number">PROJECT / 01</span>
 
-        <div class="row align-items-center">
-
-            <div class="col-lg-5 mb-4 mb-lg-0">
-
-                <p class="small text-uppercase fw-bold text-secondary">
-                    Technical Focus
-                </p>
-
-                <h2 class="fw-bold">
-                    Technologies and areas I'm developing
-                </h2>
-
-                <p class="text-secondary lh-lg">
-                    My technical development focuses on practical
-                    application development, databases, mobile
-                    technologies, version control, and
-                    problem-solving.
-                </p>
-
-            </div>
-
-
-            <div class="col-lg-7">
-
-                <div class="row g-3">
-
-                    <div class="col-6 col-md-4">
-                        <div class="info-card">
-                            <h3>PHP</h3>
-                            <p>Web Development</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <div class="info-card">
-                            <h3>MySQL</h3>
-                            <p>Database</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <div class="info-card">
-                            <h3>HTML/CSS</h3>
-                            <p>Web Development</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <div class="info-card">
-                            <h3>JavaScript</h3>
-                            <p>Web Development</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <div class="info-card">
-                            <h3>Git</h3>
-                            <p>Version Control</p>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-md-4">
-                        <div class="info-card">
-                            <h3>Android</h3>
-                            <p>Mobile Development</p>
-                        </div>
-                    </div>
+                    <span class="home-project-media-label">
+                        WEB APPLICATION
+                    </span>
 
                 </div>
 
-            </div>
+                <div class="home-project-body">
+
+                    <div class="home-project-category">
+                        <span>WEB DEVELOPMENT</span>
+                        <span>01</span>
+                    </div>
+
+                    <h3>JNIEL's Body Massage &amp; Spa</h3>
+
+                    <p>
+                        A web-based system for spa appointments,
+                        customer accounts, service management,
+                        and administrative workflows.
+                    </p>
+
+                    <div class="home-tech-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="project-spa.html" class="home-project-link">
+                        Explore Project <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 02 -->
+            <article class="home-project-card">
+
+                <div class="home-project-media home-media-asl">
+
+                    <span class="home-project-number">PROJECT / 02</span>
+
+                    <div class="home-asl-visual">
+                        <span>Fit</span>
+                        <span class="home-asl-arrow">→</span>
+                        <span>Track</span>
+                    </div>
+
+                    <span class="home-project-media-label">
+                        MOBILE / AI
+                    </span>
+
+                </div>
+
+                <div class="home-project-body">
+
+                    <div class="home-project-category">
+                        <span>CAPSTONE PROJECT</span>
+                        <span>02</span>
+                    </div>
+
+                    <h3>Offline ASL-to-Text Translator</h3>
+
+                    <p>
+                        An Android application designed around
+                        offline sign-language recognition and
+                        text-based communication.
+                    </p>
+
+                    <div class="home-tech-tags">
+                        <span>Android</span>
+                        <span>Computer Vision</span>
+                        <span>AI</span>
+                    </div>
+
+                    <a href="projects.html" class="home-project-link">
+                        Explore Projects <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 03 -->
+            <article class="home-project-card">
+
+                <div class="home-project-media home-media-colony">
+
+                    <span class="home-project-number">PROJECT / 03</span>
+
+                    <div class="home-colony-orbit home-colony-orbit-one"></div>
+                    <div class="home-colony-orbit home-colony-orbit-two"></div>
+                    <div class="home-colony-core">LC</div>
+
+                    <span class="home-project-media-label">
+                        GAME DEVELOPMENT
+                    </span>
+
+                </div>
+
+                <div class="home-project-body">
+
+                    <div class="home-project-category">
+                        <span>TEAM PROJECT</span>
+                        <span>03</span>
+                    </div>
+
+                    <h3>Last Colony</h3>
+
+                    <p>
+                        A collaborative game project involving
+                        programming, game design, UI/UX, 3D assets,
+                        storytelling, and documentation.
+                    </p>
+
+                    <div class="home-tech-tags">
+                        <span>Programming</span>
+                        <span>Game Design</span>
+                        <span>UI / UX</span>
+                    </div>
+
+                    <a href="projects.html" class="home-project-link">
+                        Explore Projects <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
-<!-- =========================
-     CONTACT CTA
-========================= -->
+    <!-- TECHNICAL FOCUS -->
+    <section class="home-section home-skills reveal">
 
-<section class="py-5">
+        <div class="home-section-label">
+            <span>03 / TECHNICAL FOCUS</span>
+            <span>CONTINUOUS DEVELOPMENT</span>
+        </div>
 
-    <div class="container">
+        <div class="home-section-heading">
 
-        <div class="text-center">
+            <div>
+                <p class="home-eyebrow">TOOLS AND TECHNOLOGIES</p>
+                <h2>What I'm <span>developing.</span></h2>
+            </div>
 
-            <p class="small text-uppercase fw-bold text-secondary">
-                Let's Connect
-            </p>
-
-            <h2 class="fw-bold mb-3">
-                Interested in my work?
-            </h2>
-
-            <p class="text-secondary mb-4">
-                You can learn more about my projects,
-                technical skills, and professional background.
-            </p>
-
-            <a href="contact.html" class="btn btn-dark px-4 py-3">
-                Contact Me
+            <a href="skills.html" class="home-text-link">
+                Explore Skills <span>↗</span>
             </a>
 
         </div>
 
-    </div>
 
-</section>
+        <div class="home-skill-grid">
+
+            <article class="home-skill-card">
+                <span class="home-skill-symbol">&lt;/&gt;</span>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, and PHP.</p>
+                <span class="home-skill-index">SKILL / 01</span>
+            </article>
+
+            <article class="home-skill-card">
+                <span class="home-skill-symbol">{ }</span>
+                <h3>Database Systems</h3>
+                <p>MySQL, relational data, and database integration.</p>
+                <span class="home-skill-index">SKILL / 02</span>
+            </article>
+
+            <article class="home-skill-card">
+                <span class="home-skill-symbol">◇</span>
+                <h3>Mobile &amp; AI</h3>
+                <p>Android development and computer-vision concepts.</p>
+                <span class="home-skill-index">SKILL / 03</span>
+            </article>
+
+            <article class="home-skill-card">
+                <span class="home-skill-symbol">⌘</span>
+                <h3>Version Control</h3>
+                <p>Git and GitHub project workflows.</p>
+                <span class="home-skill-index">SKILL / 04</span>
+            </article>
+
+            <article class="home-skill-card">
+                <span class="home-skill-symbol">⌁</span>
+                <h3>Troubleshooting</h3>
+                <p>Systematic diagnosis and technical documentation.</p>
+                <span class="home-skill-index">SKILL / 05</span>
+            </article>
+
+            <article class="home-skill-card">
+                <span class="home-skill-symbol">▤</span>
+                <h3>System Development</h3>
+                <p>Application features, testing, and integration.</p>
+                <span class="home-skill-index">SKILL / 06</span>
+            </article>
+
+        </div>
+
+    </section>
 
 
-<footer class="bg-dark text-white text-center py-4 mt-5">
+    <!-- PROBLEM SOLVING -->
+    <section class="home-case-banner reveal">
 
-    <div class="container">
+        <div class="home-case-glow"></div>
 
-        <p class="mb-1">
-            © 2026 My IT Portfolio
+        <div class="home-case-content">
+
+            <p class="home-eyebrow">04 / TECHNICAL EXPERIENCE</p>
+
+            <h2>
+                Problems are opportunities<br>
+                <span>to learn and improve.</span>
+            </h2>
+
+            <p>
+                Explore troubleshooting documentation and a defensive
+                cybersecurity case study covering diagnostic methods,
+                findings, and technical lessons.
+            </p>
+
+            <a href="problem-solving.html"
+               class="home-btn home-btn-primary">
+                Explore Case Studies <span>↗</span>
+            </a>
+
+        </div>
+
+        <div class="home-case-decoration" aria-hidden="true">
+            <span>&lt;</span>
+            <span>/</span>
+            <span>&gt;</span>
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="home-contact reveal">
+
+        <p class="home-eyebrow">05 / LET'S CONNECT</p>
+
+        <h2>
+            Every great project<br>
+            starts with <span>a conversation.</span>
+        </h2>
+
+        <p>
+            Explore my work, learn about my technical journey,
+            or get in touch.
         </p>
 
-        <p class="mb-0">
-            BSIT Industry-Ready Professional Portfolio
-        </p>
+        <a href="contact.html" class="home-btn home-btn-primary">
+            Contact Me <span>↗</span>
+        </a>
 
-    </div>
+    </section>
 
-</footer>
+</main>
+
+
+
+    <div id="footer"></div>
+
 
 <!-- Bootstrap JavaScript -->
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Main JavaScript -->
+<script src="js/script.js"></script>
+
+<!-- Shared Components -->
+<script>
+async function loadPart(id, file) {
+    const container = document.getElementById(id);
+
+    if (!container) {
+        console.error("Component container not found:", id);
+        return;
+    }
+
+    try {
+        const response = await fetch(file);
+
+        if (!response.ok) {
+            throw new Error(
+                `Failed to load ${file}: ${response.status}`
+            );
+        }
+
+        container.innerHTML = await response.text();
+
+        document.dispatchEvent(
+            new CustomEvent("componentLoaded", {
+                detail: { id: id }
+            })
+        );
+
+        console.log("Component loaded:", file);
+    } catch (error) {
+        console.error("Component loading failed:", error);
+    }
+}
+
+loadPart("header", "./includes/header.html");
+loadPart("footer", "./includes/footer.html");
 </script>
 
-<!-- Custom JavaScript -->
-<script src="js/script.js"></script>
 
 </body>
 </html>

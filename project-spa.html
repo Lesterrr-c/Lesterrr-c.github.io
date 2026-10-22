@@ -1,295 +1,1448 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>JNIEL's Body Massage & Spa | Project Documentation</title>
+    <meta name="description"
+        content="Project case study for JNIEL's Body Massage and Spa appointment management system by Lester Lagajino.">
 
-    <!-- Bootstrap CSS -->
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
+    <meta name="theme-color" content="#101811">
 
-    <!-- Custom CSS -->
+    <title>JNIEL's Body Massage & Spa | Project Case Study</title>
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/project-spa.css">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
+    <!-- SHARED PORTFOLIO HEADER -->
+    <div id="header"></div>
 
-        <a class="navbar-brand fw-bold" href="index.html">
-            My Portfolio
-        </a>
+    <main class="spa-page">
 
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMenu"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- HERO -->
+        <section class="spa-hero">
 
-        <div class="collapse navbar-collapse" id="navbarMenu">
+            <div class="spa-hero-grid" aria-hidden="true"></div>
 
-            <ul class="navbar-nav ms-auto">
+            <div class="spa-hero-inner">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
+                <div class="spa-hero-copy">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Profile</a>
-                </li>
+                    <p class="spa-kicker">
+                        <span></span>
+                        PROJECT 01 / WEB APPLICATION
+                    </p>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="skills.html">Skills</a>
-                </li>
+                    <p class="spa-status">
+                        <span></span>
+                        DEVELOPMENT CASE STUDY
+                    </p>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
+                    <h1>
+                        JNIEL's Body<br>
+                        Massage <span>&amp; Spa.</span>
+                    </h1>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                </li>
+                    <p class="spa-lead">
+                        A web-based appointment and management system
+                        designed to organize customer accounts,
+                        spa services, appointments, and administrative
+                        workflows.
+                    </p>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+                    <div class="spa-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>HTML / CSS</span>
+                    </div>
 
-                <li class="nav-item">
-                    <button class="theme-btn" id="themeBtn" type="button">
-                       🌙
-                    </button>
-                </li>
+                    <div class="spa-actions">
+                        <a href="#spa-overview" class="spa-btn">
+                            Explore Case Study <span>↓</span>
+                        </a>
 
-            </ul>
+                        <a href="projects.html" class="spa-text-link">
+                            ← All Projects
+                        </a>
+                    </div>
 
-        </div>
+                </div>
+
+
+                <!-- PROJECT PREVIEW -->
+                <div class="spa-hero-visual">
+
+                    <div class="spa-orbit spa-orbit-one"></div>
+                    <div class="spa-orbit spa-orbit-two"></div>
+
+                    <div class="spa-preview">
+
+                        <div class="spa-preview-head">
+                            <div class="spa-brand-mark">J.</div>
+
+                            <div class="spa-preview-brand">
+                                <strong>JNIEL'S</strong>
+                                <span>BODY MASSAGE &amp; SPA</span>
+                            </div>
+
+                            <span class="spa-preview-dot"></span>
+                        </div>
+
+                        <div class="spa-preview-image">
+                            <img
+                                src="images/project-1.jpg"
+                                alt="Preview image for the JNIEL's Body Massage and Spa project"
+                                loading="eager"
+                            >
+
+                            <div class="spa-preview-overlay">
+                                <span>WEB APPLICATION</span>
+                                <strong>Appointment Management</strong>
+                            </div>
+                        </div>
+
+                        <div class="spa-preview-bottom">
+                            <div>
+                                <span>PROJECT TYPE</span>
+                                <strong>Full-stack web system</strong>
+                            </div>
+
+                            <div>
+                                <span>ENVIRONMENT</span>
+                                <strong>Local development</strong>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="spa-float spa-float-one">
+                        <span class="spa-float-icon">✓</span>
+                        <div>
+                            <strong>Appointment workflows</strong>
+                            <small>System functionality</small>
+                        </div>
+                    </div>
+
+                    <div class="spa-float spa-float-two">
+                        <span class="spa-float-icon">↔</span>
+                        <div>
+                            <strong>PHP + MySQL</strong>
+                            <small>Application stack</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="spa-hero-foot">
+                <span>PROJECT DOCUMENTATION</span>
+                <span>01 — 06 / DEVELOPMENT RECORD</span>
+            </div>
+
+        </section>
+
+        
+<!-- PROJECT STATUS & SOURCE CODE -->
+<section class="spa-section spa-project-status-panel">
+
+    <div class="spa-section-top">
+        <p class="spa-label">PROJECT STATUS / DEVELOPMENT SUMMARY</p>
+        <span class="spa-section-index">PROJECT 01</span>
     </div>
-</nav>
-<section class="py-5">
-    <div class="container">
 
-        <p class="text-muted mb-2">PROJECT DOCUMENTATION</p>
+    <div class="spa-status-grid">
 
-        <h1 class="fw-bold">JNIEL's Body Massage & Spa</h1>
+        <!-- CURRENT STATUS -->
+        <article class="spa-status-card spa-status-main">
 
-        <p class="text-muted mt-3">
-            Web-Based Appointment and Management System
+            <span class="spa-status-label">CURRENT STATUS</span>
+
+            <div class="spa-status-heading">
+                <span class="spa-status-indicator"></span>
+                <h2>In Development</h2>
+            </div>
+
+            <p>
+                The application is being developed and refined through
+                feature implementation, testing, debugging, and
+                incremental improvements.
+            </p>
+
+            <span class="spa-status-badge">ACTIVE DEVELOPMENT</span>
+
+        </article>
+
+
+        <!-- TECH STACK -->
+        <article class="spa-status-card">
+
+            <span class="spa-status-label">TECHNOLOGY STACK</span>
+
+            <h3>Core Technologies</h3>
+
+            <div class="spa-status-tech">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <p>
+                Developed and tested in a local XAMPP environment.
+            </p>
+
+        </article>
+
+    </div>
+
+
+    <!-- NEXT PRIORITIES -->
+    <div class="spa-status-work">
+
+        <div class="spa-status-work-heading">
+            <p class="spa-label">DEVELOPMENT ROADMAP</p>
+            <h3>Next priorities</h3>
+        </div>
+
+        <div class="spa-status-task">
+            <span>01</span>
+            <div>
+                <strong>Verify appointment and therapist assignment</strong>
+                <p>
+                    Test regular and twin-massage bookings to confirm
+                    that the required number of therapists is assigned.
+                </p>
+            </div>
+            <span class="spa-task-state">TO VERIFY</span>
+        </div>
+
+        <div class="spa-status-task">
+            <span>02</span>
+            <div>
+                <strong>Validate customer account workflows</strong>
+                <p>
+                    Test registration, email OTP verification,
+                    login, session handling, and relevant error cases.
+                </p>
+            </div>
+            <span class="spa-task-state">TO VERIFY</span>
+        </div>
+
+        <div class="spa-status-task">
+            <span>03</span>
+            <div>
+                <strong>Complete end-to-end system testing</strong>
+                <p>
+                    Test customer booking, administrator review,
+                    database updates, and configured notifications.
+                </p>
+            </div>
+            <span class="spa-task-state">TO VERIFY</span>
+        </div>
+
+    </div>
+
+
+    <!-- SOURCE CODE -->
+    <div class="spa-source-panel">
+
+        <div class="spa-source-copy">
+            <span class="spa-status-label">SOURCE CODE / REPOSITORY</span>
+
+            <h3>Explore the implementation.</h3>
+
+            <p>
+                The source code repository can provide further
+                details about the application's structure,
+                implementation, and development history.
+            </p>
+        </div>
+
+        <div class="spa-source-action">
+
+            <span class="spa-source-note">
+                REPOSITORY LINK REQUIRED
+            </span>
+
+            <a
+                class="spa-source-btn"
+                href="https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Source Code ↗
+            </a>
+
+        </div>
+
+    </div>
+
+    <p class="spa-status-disclaimer">
+        Status and remaining priorities should be updated as features
+        are tested and verified. Do not publish the repository link
+        until it points to the correct project.
+    </p>
+
+</section>
+
+
+
+        <!-- PROJECT OVERVIEW -->
+        <section class="spa-section" id="spa-overview">
+
+            <div class="spa-section-top">
+                <p class="spa-label">01 / PROJECT OVERVIEW</p>
+                <span class="spa-section-index">OVERVIEW</span>
+            </div>
+
+            <div class="spa-overview-grid">
+
+                <div>
+                    <h2>
+                        More organized<br>
+                        <span>spa operations.</span>
+                    </h2>
+                </div>
+
+                <div class="spa-overview-copy">
+
+                    <p>
+                        JNIEL's Body Massage &amp; Spa is a web application
+                        created to support customer appointments and
+                        administrative tasks. It brings multiple
+                        workflows together, including customer accounts,
+                        service information, booking, and management
+                        functions.
+                    </p>
+
+                    <p>
+                        Developing the system has given me practical
+                        experience connecting user interfaces, PHP
+                        application logic, database operations, and
+                        authentication workflows.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="spa-metrics">
+
+                <div>
+                    <span>01</span>
+                    <strong>Customer</strong>
+                    <small>Account workflows</small>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <strong>Booking</strong>
+                    <small>Appointment workflows</small>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <strong>Administration</strong>
+                    <small>Management functions</small>
+                </div>
+
+                <div>
+                    <span>04</span>
+                    <strong>Integration</strong>
+                    <small>PHP and MySQL</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROBLEM AND OBJECTIVE -->
+        <section class="spa-section spa-problem-section">
+
+            <div class="spa-section-top">
+                <p class="spa-label">02 / THE PROBLEM &amp; OBJECTIVE</p>
+                <span class="spa-section-index">PURPOSE</span>
+            </div>
+
+            <div class="spa-problem-grid">
+
+                <article class="spa-info-card">
+                    <span class="spa-card-index">01 / THE PROBLEM</span>
+
+                    <h3>Organizing daily operations</h3>
+
+                    <p>
+                        Customer details, services, appointment schedules,
+                        and administrative activities need to be handled
+                        consistently. A scattered workflow can make
+                        records harder to manage and appointments more
+                        difficult to coordinate.
+                    </p>
+                </article>
+
+                <article class="spa-info-card spa-info-highlight">
+                    <span class="spa-card-index">02 / THE OBJECTIVE</span>
+
+                    <h3>Bring core workflows together</h3>
+
+                    <p>
+                        The objective is to provide a web-based system
+                        where customers can manage their account and
+                        appointment workflow, while authorized staff
+                        can manage relevant services, therapists,
+                        and appointment records.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- MY CONTRIBUTION -->
+        <section class="spa-section">
+
+            <div class="spa-section-top">
+                <p class="spa-label">03 / MY CONTRIBUTION</p>
+                <span class="spa-section-index">DEVELOPMENT ROLE</span>
+            </div>
+
+            <div class="spa-role-grid">
+
+                <div class="spa-role-intro">
+                    <h2>
+                        Turning requirements<br>
+                        <span>into system features.</span>
+                    </h2>
+
+                    <p>
+                        I worked on developing and testing the web
+                        application, including its interface,
+                        database integration, account workflows,
+                        appointment functions, and administration.
+                    </p>
+                </div>
+
+                <div class="spa-role-list">
+
+                    <div class="spa-role-row">
+                        <span>01</span>
+                        <div>
+                            <strong>Interface Development</strong>
+                            <p>
+                                Structured customer and administrative
+                                pages using HTML, CSS, and JavaScript.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="spa-role-row">
+                        <span>02</span>
+                        <div>
+                            <strong>Backend and Database</strong>
+                            <p>
+                                Worked with PHP and MySQL to connect
+                                application features with stored data.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="spa-role-row">
+                        <span>03</span>
+                        <div>
+                            <strong>Authentication</strong>
+                            <p>
+                                Worked on customer account workflows,
+                                email OTP verification, and administrator
+                                session handling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="spa-role-row">
+                        <span>04</span>
+                        <div>
+                            <strong>Testing and Debugging</strong>
+                            <p>
+                                Investigated errors, tested booking
+                                behavior, and refined system workflows.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+        <section class="spa-section spa-features-section"
+            id="spa-features">
+
+            <div class="spa-section-top">
+                <p class="spa-label">04 / SYSTEM FEATURES</p>
+                <span class="spa-section-index">FUNCTIONALITY</span>
+            </div>
+
+            <div class="spa-section-heading">
+
+                <h2>
+                    Built around real<br>
+                    <span>business workflows.</span>
+                </h2>
+
+                <p>
+                    The system covers customer-facing and administrative
+                    functions. Features are still subject to testing
+                    and verification where indicated.
+                </p>
+
+            </div>
+
+            <div class="spa-feature-grid">
+
+                <article class="spa-feature-card">
+                    <span class="spa-feature-number">FEATURE / 01</span>
+                    <div class="spa-feature-icon">♙</div>
+                    <h3>Customer Accounts</h3>
+                    <p>
+                        Customer registration, login, and account-related
+                        workflows.
+                    </p>
+                    <span class="spa-feature-state">ACCOUNT WORKFLOW</span>
+                </article>
+
+                <article class="spa-feature-card">
+                    <span class="spa-feature-number">FEATURE / 02</span>
+                    <div class="spa-feature-icon">✉</div>
+                    <h3>Email OTP</h3>
+                    <p>
+                        Email one-time password verification as part
+                        of the account workflow.
+                    </p>
+                    <span class="spa-feature-state spa-state-review">
+                        VERIFICATION IN TESTING
+                    </span>
+                </article>
+
+                <article class="spa-feature-card">
+                    <span class="spa-feature-number">FEATURE / 03</span>
+                    <div class="spa-feature-icon">▦</div>
+                    <h3>Appointment Booking</h3>
+                    <p>
+                        Booking workflows for selecting services
+                        and scheduling appointments.
+                    </p>
+                    <span class="spa-feature-state spa-state-review">
+                        BOOKING LOGIC UNDER TEST
+                    </span>
+                </article>
+
+                <article class="spa-feature-card">
+                    <span class="spa-feature-number">FEATURE / 04</span>
+                    <div class="spa-feature-icon">✦</div>
+                    <h3>Service Management</h3>
+                    <p>
+                        Administrative pages for organizing the
+                        spa services offered by the business.
+                    </p>
+                    <span class="spa-feature-state">
+                        ADMIN WORKFLOW
+                    </span>
+                </article>
+
+                <article class="spa-feature-card">
+                    <span class="spa-feature-number">FEATURE / 05</span>
+                    <div class="spa-feature-icon">♧</div>
+                    <h3>Therapist Management</h3>
+                    <p>
+                        Management of therapist records and
+                        appointment-related assignments.
+                    </p>
+                    <span class="spa-feature-state spa-state-review">
+                        ASSIGNMENTS UNDER TEST
+                    </span>
+                </article>
+
+                <article class="spa-feature-card">
+                    <span class="spa-feature-number">FEATURE / 06</span>
+                    <div class="spa-feature-icon">⌘</div>
+                    <h3>Admin Access</h3>
+                    <p>
+                        Administrator login and PHP session-based
+                        access to management functions.
+                    </p>
+                    <span class="spa-feature-state">
+                        SESSION WORKFLOW
+                    </span>
+                </article>
+
+            </div>
+
+            <p class="spa-feature-note">
+                Feature labels describe the development and testing
+                status reflected in this project record. Confirm
+                each workflow before presenting it as complete.
+            </p>
+
+        </section>
+
+
+        <!-- TECHNOLOGY STACK -->
+        <section class="spa-section">
+
+            <div class="spa-section-top">
+                <p class="spa-label">05 / TECHNOLOGY STACK</p>
+                <span class="spa-section-index">TOOLS &amp; TECHNOLOGIES</span>
+            </div>
+
+            <div class="spa-stack-grid">
+
+                <div class="spa-stack-copy">
+
+                    <h2>
+                        The tools behind<br>
+                        <span>the application.</span>
+                    </h2>
+
+                    <p>
+                        The project uses a server-side web development
+                        approach, with PHP handling application logic
+                        and MySQL supporting relational data storage.
+                    </p>
+
+                </div>
+
+                <div class="spa-stack">
+
+                    <div class="spa-stack-item">
+                        <span>01</span>
+                        <div>
+                            <strong>PHP</strong>
+                            <small>Server-side application logic</small>
+                        </div>
+                    </div>
+
+                    <div class="spa-stack-item">
+                        <span>02</span>
+                        <div>
+                            <strong>MySQL</strong>
+                            <small>Relational database</small>
+                        </div>
+                    </div>
+
+                    <div class="spa-stack-item">
+                        <span>03</span>
+                        <div>
+                            <strong>HTML / CSS</strong>
+                            <small>Page structure and interface styling</small>
+                        </div>
+                    </div>
+
+                    <div class="spa-stack-item">
+                        <span>04</span>
+                        <div>
+                            <strong>JavaScript</strong>
+                            <small>Client-side interactivity</small>
+                        </div>
+                    </div>
+
+                    <div class="spa-stack-item">
+                        <span>05</span>
+                        <div>
+                            <strong>XAMPP</strong>
+                            <small>Local development environment</small>
+                        </div>
+                    </div>
+
+                    <div class="spa-stack-item">
+                        <span>06</span>
+                        <div>
+                            <strong>Git / GitHub</strong>
+                            <small>Version control and project workflow</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DEVELOPMENT PROCESS -->
+        <section class="spa-section spa-process-section">
+
+            
+<!-- SYSTEM ARCHITECTURE -->
+<section class="spa-section spa-architecture" id="spa-architecture">
+
+    <div class="spa-section-top">
+        <p class="spa-label">06 / SYSTEM ARCHITECTURE</p>
+        <span class="spa-section-index">HOW THE SYSTEM WORKS</span>
+    </div>
+
+    <div class="spa-architecture-heading">
+        <h2>
+            From user interaction<br>
+            <span>to database operations.</span>
+        </h2>
+
+        <p>
+            A simplified view of how users interact with the
+            application, how PHP processes requests, and how
+            the system accesses stored information.
         </p>
+    </div>
 
-        <hr class="my-5">
+    <div class="spa-architecture-flow">
 
-        <!-- OVERVIEW -->
-        <div class="mb-5">
-            <h2>Project Overview</h2>
+        <div class="spa-architecture-users">
 
-            <p>
-                JNIEL's Body Massage & Spa is a web-based system designed
-                to manage customer appointments and assist with basic
-                spa business operations.
-            </p>
+            <article class="spa-architecture-node">
+                <span class="spa-architecture-number">01</span>
+                <div class="spa-architecture-icon">♙</div>
+                <h3>Customer Interface</h3>
+                <p>
+                    Registration, login, service selection,
+                    and appointment booking.
+                </p>
+                <span class="spa-architecture-tech">
+                    HTML / CSS / JavaScript
+                </span>
+            </article>
+
+            <article class="spa-architecture-node">
+                <span class="spa-architecture-number">02</span>
+                <div class="spa-architecture-icon">⌘</div>
+                <h3>Admin Interface</h3>
+                <p>
+                    Dashboard, appointments, services,
+                    customers, and therapist management.
+                </p>
+                <span class="spa-architecture-tech">
+                    ADMIN WORKFLOWS
+                </span>
+            </article>
+
         </div>
 
-        <!-- PROBLEM -->
-        <div class="mb-5">
-            <h2>Problem</h2>
-
-            <p>
-                The project was developed to provide a more organized way
-                of handling customer information, services, appointments,
-                and other spa management tasks.
-            </p>
-        </div>
-
-        <!-- OBJECTIVE -->
-        <div class="mb-5">
-            <h2>Objective</h2>
-
-            <p>
-                The main objective was to develop a functional web application
-                that allows customers to make appointments while providing
-                administrators with tools to manage the system.
-            </p>
-        </div>
-
-        <!-- ROLE -->
-        <div class="mb-5">
-            <h2>My Role</h2>
-
-            <p>
-                I worked on the development of the system, including the
-                user interface, database integration, authentication,
-                appointment functionality, and administrative features.
-            </p>
-        </div>
-
-        <!-- TECHNOLOGIES -->
-        <div class="mb-5">
-            <h2>Technologies</h2>
-
-            <div class="d-flex flex-wrap gap-2 mt-3">
-                <span class="badge bg-light text-dark border">PHP</span>
-                <span class="badge bg-light text-dark border">MySQL</span>
-                <span class="badge bg-light text-dark border">HTML</span>
-                <span class="badge bg-light text-dark border">CSS</span>
-                <span class="badge bg-light text-dark border">JavaScript</span>
-                <span class="badge bg-light text-dark border">Bootstrap</span>
-                <span class="badge bg-light text-dark border">XAMPP</span>
-                <span class="badge bg-light text-dark border">Git</span>
-                <span class="badge bg-light text-dark border">GitHub</span>
+        <div class="spa-architecture-connector">
+            <span>HTTP REQUEST / RESPONSE</span>
+            <div class="spa-architecture-line">
+                <span>↓</span>
             </div>
         </div>
 
-        <div class="project">
+        <article class="spa-architecture-node spa-architecture-backend">
 
-    <div class="head">
-        <h2>Development Process</h2>
+            <span class="spa-architecture-number">03</span>
+            <div class="spa-architecture-icon">&lt;/&gt;</div>
+            <h3>PHP Application Logic</h3>
+
+            <p>
+                Processes requests, validates input, manages
+                sessions, applies booking rules, and communicates
+                with the database.
+            </p>
+
+            <div class="spa-architecture-tags">
+                <span>AUTHENTICATION</span>
+                <span>VALIDATION</span>
+                <span>BOOKING LOGIC</span>
+            </div>
+
+        </article>
+
+        <div class="spa-architecture-connector">
+            <span>DATABASE QUERIES</span>
+            <div class="spa-architecture-line">
+                <span>↓</span>
+            </div>
+        </div>
+
+        <article class="spa-architecture-node spa-architecture-database">
+
+            <span class="spa-architecture-number">04</span>
+            <div class="spa-architecture-icon">▤</div>
+            <h3>MySQL Database</h3>
+
+            <p>
+                Stores application records such as customers,
+                services, therapists, and appointments.
+            </p>
+
+            <span class="spa-architecture-tech">
+                RELATIONAL DATA STORAGE
+            </span>
+
+        </article>
+
+        <div class="spa-architecture-connector">
+            <span>OPTIONAL CONFIGURED EMAIL WORKFLOWS</span>
+            <div class="spa-architecture-line">
+                <span>↓</span>
+            </div>
+        </div>
+
+        <article class="spa-architecture-node spa-architecture-email">
+
+            <span class="spa-architecture-number">05</span>
+            <div class="spa-architecture-icon">✉</div>
+            <h3>Email Service</h3>
+
+            <p>
+                Supports configured email-based workflows,
+                such as OTP verification and notifications.
+            </p>
+
+            <span class="spa-architecture-tech">
+                SMTP / PHPMailer
+            </span>
+
+        </article>
+
     </div>
 
-    <div class="grid">
+    <p class="spa-architecture-note">
+        SIMPLIFIED ARCHITECTURE / Reflect the final diagram against
+        the implementation and workflows actually enabled in your system.
+    </p>
 
-        <div class="box">
-            <h3>1. Planning</h3>
-            <p>
-                I identified the main requirements of the system,
-                including customer registration, appointment booking,
-                service management, and administrative functions.
-            </p>
-        </div>
-
-        <div class="box">
-            <h3>2. Design</h3>
-            <p>
-                I planned the structure of the customer and admin
-                interfaces and organized the system into separate
-                pages and functions.
-            </p>
-        </div>
-
-        <div class="box">
-            <h3>3. Development</h3>
-            <p>
-                I implemented the system using PHP, MySQL, HTML,
-                CSS, and JavaScript. I also connected the application
-                to the database and implemented its main functions.
-            </p>
-        </div>
-
-        <div class="box">
-            <h3>4. Testing</h3>
-            <p>
-                I tested the system by checking registration,
-                authentication, appointments, database operations,
-                email verification, and other system functions.
-            </p>
-        </div>
-
-        <div class="box">
-            <h3>5. Debugging</h3>
-            <p>
-                When errors occurred, I examined the error messages,
-                checked the related code, identified the cause,
-                and tested the changes until the problem was resolved.
-            </p>
-        </div>
-
-        <div class="box">
-            <h3>6. Improvement</h3>
-            <p>
-                I continued improving the system based on testing
-                results and identified problems during development.
-            </p>
-        </div>
-
-    </div>
-
-</div>
-
-        <!-- FEATURES -->
-        <div class="mb-5">
-            <h2>Key Features</h2>
-
-            <ul class="text-muted mt-3">
-                <li>Customer registration and login</li>
-                <li>Email verification using OTP</li>
-                <li>Appointment booking</li>
-                <li>Service management</li>
-                <li>Therapist management</li>
-                <li>Customer management</li>
-                <li>Admin dashboard</li>
-                <li>Appointment management</li>
-                <li>Email notifications and reminders</li>
-                <li>Reports</li>
-            </ul>
-        </div>
-
-        <!-- CHALLENGES -->
-        <div class="mb-5">
-            <h2>Challenges</h2>
-
-            <p>
-                During development, I encountered problems involving PHP
-                file paths, database connections, authentication, OTP
-                verification, and email configuration.
-            </p>
-        </div>
-
-        <!-- SOLUTIONS -->
-        <div class="mb-5">
-            <h2>Solutions</h2>
-
-            <p>
-                I solved these problems through debugging, testing,
-                checking error messages, reviewing the system structure,
-                and making incremental changes to the application.
-            </p>
-        </div>
-
-        <!-- LEARNING -->
-        <div class="mb-5">
-            <h2>What I Learned</h2>
-
-            <p>
-                This project improved my understanding of PHP development,
-                database integration, authentication, CRUD operations,
-                debugging, Git/GitHub, and building a complete web
-                application.
-            </p>
-        </div>
-
-    </div>
 </section>
-<footer class="bg-dark text-white text-center py-4 mt-5">
 
-    <div class="container">
 
-        <p class="mb-1">
-            © 2026 My IT Portfolio
+            
+<!-- PROJECT EVIDENCE GALLERY -->
+<section class="spa-section spa-evidence-section" id="spa-evidence">
+
+    <div class="spa-section-top">
+        <p class="spa-label">06 / PROJECT EVIDENCE</p>
+        <span class="spa-section-index">VISUAL DOCUMENTATION</span>
+    </div>
+
+    <div class="spa-evidence-heading">
+        <h2>
+            The system in action.<br>
+            <span>Evidence from development.</span>
+        </h2>
+
+        <p>
+            Screenshots from the actual application will document
+            its interface, core workflows, database structure,
+            and development process.
         </p>
+    </div>
 
-        <p class="mb-0">
-            BSIT Industry-Ready Professional Portfolio
-        </p>
+    <div class="spa-evidence-grid">
+
+        <!-- EVIDENCE 01 -->
+        <figure class="spa-evidence-card">
+            <div class="spa-evidence-media">
+                <img
+                    class="spa-evidence-img"
+                    src="images/evidence/spa/01-booking-page.png"
+                    alt="JNIEL's Spa customer appointment booking page"
+                    loading="lazy"
+                >
+                <span class="spa-evidence-figure">FIG. 01</span>
+            </div>
+
+            <figcaption>
+                <span>01 / CUSTOMER INTERFACE</span>
+                <h3>Appointment Booking</h3>
+                <p>
+                    Show the actual page where customers select
+                    a service and enter appointment details.
+                </p>
+            </figcaption>
+        </figure>
+
+
+        <!-- EVIDENCE 02 -->
+        <figure class="spa-evidence-card">
+            <div class="spa-evidence-media">
+                
+                    <img
+                    class="spa-evidence-img"
+                    src="images/evidence/spa/02-admin-dashboard-page.png"
+                    alt="JNIEL's Spa customer appointment booking page"
+                    loading="lazy"
+                    >
+                
+                
+                <span class="spa-evidence-figure">FIG. 02</span>
+            </div>
+
+            <figcaption>
+                <span>02 / ADMINISTRATION</span>
+                <h3>Admin Dashboard</h3>
+                <p>
+                    Show the actual administrator interface
+                    and available management functions.
+                </p>
+            </figcaption>
+        </figure>
+
+
+        <!-- EVIDENCE 03 -->
+        <figure class="spa-evidence-card">
+            <div class="spa-evidence-media">
+                <img
+                    class="spa-evidence-img"
+                    src="images/evidence/spa/03-appointments.png"
+                    alt="JNIEL's Spa customer appointment booking page"
+                    loading="lazy"
+                    >
+                
+                <span class="spa-evidence-figure">FIG. 03</span>
+            </div>
+
+            <figcaption>
+                <span>03 / BOOKING WORKFLOW</span>
+                <h3>Appointment Management</h3>
+                <p>
+                    Show appointment schedules, records,
+                    and statuses using sample data.
+                </p>
+            </figcaption>
+        </figure>
+
+
+        <!-- EVIDENCE 04 -->
+        <figure class="spa-evidence-card">
+            <div class="spa-evidence-media">
+                <img
+                    class="spa-evidence-img"
+                    src="images/evidence/spa/04-service-therapists.png"
+                    alt="JNIEL's Spa customer appointment booking page"
+                    loading="lazy"
+                    >
+                <span class="spa-evidence-figure">FIG. 04</span>
+            </div>
+
+            <figcaption>
+                <span>04 / RESOURCE MANAGEMENT</span>
+                <h3>Services and Therapists</h3>
+                <p>
+                    Demonstrate the actual service records
+                    and therapist assignment screens.
+                </p>
+            </figcaption>
+        </figure>
+
+
+        <!-- EVIDENCE 05 -->
+        <figure class="spa-evidence-card">
+            <div class="spa-evidence-media">
+                <img
+                    class="spa-evidence-img"
+                    src="images/evidence/spa/05-database-structure.png"
+                    alt="JNIEL's Spa customer appointment booking page"
+                    loading="lazy"
+                    >
+                <span class="spa-evidence-figure">FIG. 05</span>
+            </div>
+
+            <figcaption>
+                <span>05 / DATABASE</span>
+                <h3>Database Structure</h3>
+                <p>
+                    Show selected MySQL tables and their
+                    relationships in phpMyAdmin.
+                </p>
+            </figcaption>
+        </figure>
+
+
+        <!-- EVIDENCE 06 -->
+        <figure class="spa-evidence-card">
+            <div class="spa-evidence-media">
+                <img
+                    class="spa-evidence-img"
+                    src="images/evidence/spa/06-code-evidence.png"
+                    alt="JNIEL's Spa customer appointment booking page"
+                    loading="lazy"
+                    >
+                
+                <span class="spa-evidence-figure">FIG. 06</span>
+            </div>
+
+            <figcaption>
+                <span>06 / DEVELOPMENT</span>
+                <h3>Code and Debugging</h3>
+                <p>
+                    Show a relevant PHP function, SQL query,
+                    or booking-validation logic.
+                </p>
+            </figcaption>
+        </figure>
 
     </div>
 
-</footer>
+    <p class="spa-evidence-note">
+        PROJECT DOCUMENTATION / Replace each placeholder with
+        an authentic screenshot from the application.
+        Remove private and confidential information before publishing.
+    </p>
 
-<!-- Bootstrap JavaScript -->
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</section>
+
+
+            <div class="spa-section-top">
+                <p class="spa-label">07 / DEVELOPMENT PROCESS</p>
+                <span class="spa-section-index">WORKFLOW</span>
+            </div>
+
+            <h2>
+                From requirements<br>
+                <span>to iterative improvement.</span>
+            </h2>
+
+            <div class="spa-timeline">
+
+                <article class="spa-timeline-item">
+                    <span class="spa-timeline-number">01</span>
+                    <div>
+                        <h3>Planning</h3>
+                        <p>
+                            Identify the key customer, appointment,
+                            service, therapist, and administrator
+                            workflows.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="spa-timeline-item">
+                    <span class="spa-timeline-number">02</span>
+                    <div>
+                        <h3>Interface and Structure</h3>
+                        <p>
+                            Organize the pages and design the
+                            customer-facing and administration
+                            interfaces.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="spa-timeline-item">
+                    <span class="spa-timeline-number">03</span>
+                    <div>
+                        <h3>Backend Integration</h3>
+                        <p>
+                            Connect PHP application logic to MySQL
+                            and implement the required workflows.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="spa-timeline-item">
+                    <span class="spa-timeline-number">04</span>
+                    <div>
+                        <h3>Testing and Debugging</h3>
+                        <p>
+                            Test complete workflows, inspect
+                            errors, and investigate issues
+                            involving data and business rules.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="spa-timeline-item">
+                    <span class="spa-timeline-number">05</span>
+                    <div>
+                        <h3>Refinement</h3>
+                        <p>
+                            Apply fixes incrementally and retest
+                            affected behavior before treating a
+                            feature as complete.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHALLENGE / CASE STUDY -->
+        <section class="spa-section">
+
+            <div class="spa-section-top">
+                <p class="spa-label">07 / TECHNICAL CHALLENGE</p>
+                <span class="spa-section-index">PROBLEM SOLVING</span>
+            </div>
+
+            <div class="spa-challenge">
+
+                <div class="spa-challenge-main">
+
+                    <p class="spa-challenge-type">
+                        BOOKING LOGIC / THERAPIST ASSIGNMENT
+                    </p>
+
+                    <h2>
+                        A booking must satisfy<br>
+                        <span>the service requirements.</span>
+                    </h2>
+
+                    <p>
+                        During testing, I investigated a twin-massage
+                        booking where the service required two therapists
+                        but only one therapist appeared to be assigned.
+                        This exposed the importance of checking the
+                        booking rules across different service types.
+                    </p>
+
+                </div>
+
+                <div class="spa-challenge-steps">
+
+                    <div>
+                        <span>01</span>
+                        <p>
+                            <strong>Reproduce the issue</strong>
+                            Test the booking using the twin-massage service.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <p>
+                            <strong>Inspect the logic</strong>
+                            Review the required therapist count and
+                            how assignments are recorded.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <p>
+                            <strong>Retest the workflow</strong>
+                            Verify that the actual number of assigned
+                            therapists matches the service requirement.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="spa-challenge-note">
+                This case documents the problem-solving process.
+                It should not be represented as fully resolved until
+                the twin-massage booking has been tested successfully.
+            </p>
+
+        </section>
+
+
+        <!-- LESSONS -->
+        <section class="spa-section">
+
+            <div class="spa-section-top">
+                <p class="spa-label">09 / LESSONS LEARNED</p>
+                <span class="spa-section-index">REFLECTION</span>
+            </div>
+
+            <div class="spa-learning-grid">
+
+                <div class="spa-learning-heading">
+                    <h2>
+                        Build it.<br>
+                        <span>Test it. Improve it.</span>
+                    </h2>
+
+                    <p>
+                        Developing the system helped me understand
+                        the relationship between application code,
+                        database operations, authentication, and
+                        business rules.
+                    </p>
+                </div>
+
+                <div class="spa-learning-list">
+
+                    <div>
+                        <span>01</span>
+                        <p>
+                            <strong>Understand the full workflow</strong>
+                            A page loading successfully does not prove
+                            that the complete feature works.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <p>
+                            <strong>Check data relationships</strong>
+                            Application logic and database records
+                            must remain consistent.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <p>
+                            <strong>Debug systematically</strong>
+                            Reproduce the problem, inspect the relevant
+                            code, change one thing at a time, and retest.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>04</span>
+                        <p>
+                            <strong>Verify before declaring success</strong>
+                            Record the actual outcome instead of
+                            assuming a fix worked.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEXT PRIORITIES -->
+        <section class="spa-section">
+
+            <div class="spa-section-top">
+                <p class="spa-label">10 / NEXT DEVELOPMENT PRIORITIES</p>
+                <span class="spa-section-index">CONTINUOUS IMPROVEMENT</span>
+            </div>
+
+            <div class="spa-priority-grid">
+
+                <article>
+                    <span>PRIORITY / 01</span>
+                    <h3>Validate booking rules</h3>
+                    <p>
+                        Complete testing for therapist requirements,
+                        including single and twin-massage bookings.
+                    </p>
+                </article>
+
+                <article>
+                    <span>PRIORITY / 02</span>
+                    <h3>Verify account workflows</h3>
+                    <p>
+                        Test registration, OTP verification, login,
+                        session behavior, and error handling.
+                    </p>
+                </article>
+
+                <article>
+                    <span>PRIORITY / 03</span>
+                    <h3>Review security and reliability</h3>
+                    <p>
+                        Review access control, server-side validation,
+                        database handling, and sensitive error messages.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CLOSING -->
+        <section class="spa-closing">
+
+            <p class="spa-label">PROJECT 01 / JNIEL'S BODY MASSAGE &amp; SPA</p>
+
+            <h2>
+                A practical exercise in<br>
+                <span>building real web systems.</span>
+            </h2>
+
+            <p>
+                This project represents my ongoing development
+                in full-stack web development, database integration,
+                debugging, and systematic testing.
+            </p>
+
+            <a href="projects.html" class="spa-btn">
+                ← Back to All Projects
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- SHARED PORTFOLIO FOOTER -->
+    <div id="footer"></div>
+
+
+    <script src="js/script.js"></script>
+
+    <script>
+        async function loadPart(id, file) {
+            const container = document.getElementById(id);
+
+            if (!container) return;
+
+            try {
+                const response = await fetch(file);
+
+                if (!response.ok) {
+                    throw new Error("Could not load " + file);
+                }
+
+                container.innerHTML = await response.text();
+
+                document.dispatchEvent(
+                    new CustomEvent("componentLoaded", {
+                        detail: { id: id }
+                    })
+                );
+
+            } catch (error) {
+                console.error(error.message);
+            }
+        }
+
+        loadPart("header", "./includes/header.html");
+        loadPart("footer", "./includes/footer.html");
+    </script>
+
+    
+<script>
+(function initSpaLightbox() {
+    const images = document.querySelectorAll(".spa-evidence-img");
+
+    // Make evidence images keyboard-accessible.
+    images.forEach(function (img) {
+        img.tabIndex = 0;
+        img.setAttribute("role", "button");
+        img.setAttribute("aria-label", "Enlarge image: " + (img.alt || "Project evidence"));
+    });
+
+    // Create the viewer once.
+    const lightbox = document.createElement("div");
+    lightbox.className = "spa-lightbox";
+    lightbox.setAttribute("role", "dialog");
+    lightbox.setAttribute("aria-modal", "true");
+    lightbox.setAttribute("aria-label", "Project evidence image viewer");
+    lightbox.setAttribute("aria-hidden", "true");
+
+    lightbox.innerHTML = `
+        <button class="spa-lightbox-close"
+                type="button"
+                aria-label="Close image viewer">&times;</button>
+
+        <div class="spa-lightbox-inner">
+            <img class="spa-lightbox-image" src="" alt="">
+            <p class="spa-lightbox-caption"></p>
+        </div>
+    `;
+
+    document.body.appendChild(lightbox);
+
+    const viewerImage = lightbox.querySelector(".spa-lightbox-image");
+    const viewerCaption = lightbox.querySelector(".spa-lightbox-caption");
+    const closeButton = lightbox.querySelector(".spa-lightbox-close");
+
+    let previousImage = null;
+
+    function openLightbox(img) {
+        previousImage = img;
+
+        viewerImage.src = img.currentSrc || img.src;
+        viewerImage.alt = img.alt || "Project evidence";
+
+        const card = img.closest(".spa-evidence-card");
+        const title = card?.querySelector("figcaption h3");
+        const description = card?.querySelector("figcaption p");
+
+        viewerCaption.textContent = [
+            title?.textContent.trim(),
+            description?.textContent.trim()
+        ].filter(Boolean).join(" — ") || img.alt || "Project evidence";
+
+        lightbox.classList.add("is-open");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.classList.add("spa-lightbox-open");
+
+        closeButton.focus();
+    }
+
+    function closeLightbox() {
+        if (!lightbox.classList.contains("is-open")) return;
+
+        lightbox.classList.remove("is-open");
+        lightbox.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("spa-lightbox-open");
+
+        viewerImage.removeAttribute("src");
+
+        if (previousImage) {
+            previousImage.focus();
+        }
+    }
+
+    // Event delegation also supports images added to the gallery later.
+    document.addEventListener("click", function (event) {
+        const img = event.target.closest(".spa-evidence-img");
+
+        if (img) {
+            openLightbox(img);
+            return;
+        }
+
+        if (event.target.closest(".spa-lightbox-close")) {
+            closeLightbox();
+            return;
+        }
+
+        // Close when the dark backdrop itself is clicked.
+        if (event.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    // Support Enter and Space for keyboard users.
+    document.addEventListener("keydown", function (event) {
+        if (
+            event.target.matches(".spa-evidence-img") &&
+            (event.key === "Enter" || event.key === " ")
+        ) {
+            event.preventDefault();
+            openLightbox(event.target);
+            return;
+        }
+
+        if (!lightbox.classList.contains("is-open")) return;
+
+        if (event.key === "Escape") {
+            event.preventDefault();
+            closeLightbox();
+        }
+
+        // Keep keyboard focus on the close button while the viewer is open.
+        if (event.key === "Tab") {
+            event.preventDefault();
+            closeButton.focus();
+        }
+    });
+})();
 </script>
 
-<!-- Custom JavaScript -->
-<script src="js/script.js"></script>
 
 </body>
 </html>
